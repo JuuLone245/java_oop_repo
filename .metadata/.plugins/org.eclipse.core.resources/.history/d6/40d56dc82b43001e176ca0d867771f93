@@ -1,0 +1,12 @@
+package gui;
+import javax.swing.*;
+
+import java.awt.*;
+public class JFrameTest2 {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package pratice;
+
+public class Salary extends Employee{
+	double salary;
+	public Salary(String name, String address, int number) {
+		super(name, address, number);
+		
+	}
+	
+	@Override
+	public double coumputePay() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

@@ -1,0 +1,21 @@
+package gui;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class MessageBox {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter username: ");
+		String username = scan.nextLine();
+		System.out.print("Enter password: ");
+		String pw = scan.nextLine();
+		
+		if(username.equals("Admin")&& pw.equals("123!@#"))
+			JOptionPane.showMessageDialog(null, "Login Successfully");
+
+	}
+
+}

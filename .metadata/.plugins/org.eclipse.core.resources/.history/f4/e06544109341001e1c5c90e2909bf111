@@ -1,0 +1,21 @@
+package abstraction;
+
+public abstract class Employee {
+	private String name;
+	private String address;
+	private int number;
+	
+	
+	public abstract void computePay();
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public String getName()
+	{
+		return this.name;
+	}
+
+}

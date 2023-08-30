@@ -1,0 +1,10 @@
+package abstraction;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Salary sa = new Salary("Mg Mg","Lan Ma taw",3,10000);
+
+	}
+
+}

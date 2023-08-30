@@ -1,0 +1,10 @@
+package pratice;
+
+public class MainClassEmSalary  {
+
+	public static void main(String[] args) {
+		Salary sa = new Salary("Mg Mg","Hladen",2,20000);
+
+	}
+
+}

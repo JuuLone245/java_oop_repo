@@ -1,0 +1,21 @@
+package interfaceoop;
+
+public class MainMethod {
+
+	public static void main(String[] args) {
+		Rectangle r = new Rectangle(2,3);
+		Circle c = new Circle(12);
+		Triangle tri = new Triangle(7,12,13);
+		
+		System.out.println("Rectangle Area: "+r.area());
+		System.out.println("Rectangle Parameter: "+r.parameter());
+		System.out.println();
+		System.out.println("Circle Area: "+c.area());
+		System.out.println("Circle Parameter: "+c.parameter());
+		System.out.println();
+		System.out.println("Triangle Area: "+tri.area());
+		System.out.println("Triangle Parameter: "+tri.parameter());
+
+	}
+
+}

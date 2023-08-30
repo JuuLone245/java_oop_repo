@@ -1,0 +1,21 @@
+package oopInheritance;
+
+public class SpecialAccount extends Account {
+
+	public SpecialAccount(String name,double withdraw)
+	{
+		super(name);
+		this.withdraw = withdraw;
+	}
+	public void getResult()
+	{
+		System.out.println("Username: "+this.name);
+		System.out.println("Total Amount: "+getAmount());
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

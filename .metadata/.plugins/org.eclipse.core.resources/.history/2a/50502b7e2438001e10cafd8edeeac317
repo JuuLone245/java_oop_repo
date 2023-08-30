@@ -1,0 +1,30 @@
+package method;
+
+import java.util.Scanner;
+
+public class MethodExample7 {
+	int a,b;
+	public MethodExample7(int c,int d)
+	{
+		this.a = c;
+		this.b = d;
+	}
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		MethodExample7 m1 = new MethodExample7(10,20);
+		System.out.println("Before Swapping" );
+		System.out.println(m1.a+" "+m1.b );
+		swap(m1);
+		System.out.println("After Swapping" );
+		System.out.print(m1.a+" "+m1.b );
+		
+
+	}
+	public static void swap(MethodExample7 m1) {
+		int temp=m1.a;
+		m1.a = m1.b;
+		m1.b = temp;
+		
+	}
+
+}
