@@ -35,9 +35,6 @@ public class Circle {
 		circle1.setRadious();
 		circle1.computeDiameter();
 		circle1.computeArea();
-		System.out.println("Hello Circle");
-		System.out.println("Hello Git Hub");
-		
 
 	}
 
